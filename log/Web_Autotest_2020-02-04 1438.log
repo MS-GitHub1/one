@@ -1,0 +1,13 @@
+ Tue, 04 Feb 2020 14:38:01  INFO logger_handler.py <module> [ line:21 ] hehehe
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py wait_ele_visible [ line:35 ] 输入用户名 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 14:38:08.074019,结束时间为:2020-02-04 14:38:08.113923,一共等待耗时为:0:00:00.039904
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py get_element [ line:72 ] 输入用户名 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py send_text [ line:88 ] 输入用户名: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py wait_ele_visible [ line:35 ] 输入密码 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 14:38:08.298460,结束时间为:2020-02-04 14:38:08.343272,一共等待耗时为:0:00:00.044812
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py get_element [ line:72 ] 输入密码 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py send_text [ line:88 ] 输入密码: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py wait_ele_visible [ line:35 ] 登录 : 等待 ('xpath', '//button[@class="btn btn-special"]') 元素可见
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 14:38:08.436025,结束时间为:2020-02-04 14:38:08.464948,一共等待耗时为:0:00:00.028923
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py get_element [ line:72 ] 登录 : 查找 ('xpath', '//button[@class="btn btn-special"]') 元素.
+ Tue, 04 Feb 2020 14:38:08  INFO basepage.py click_element [ line:102 ] 登录: 点击 ('xpath', '//button[@class="btn btn-special"]') 元素 

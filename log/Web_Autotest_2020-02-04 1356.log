@@ -1,0 +1,84 @@
+ Tue, 04 Feb 2020 13:56:31  INFO logger_handler.py <module> [ line:21 ] hehehe
+ Tue, 04 Feb 2020 13:56:37  INFO basepage.py wait_ele_visible [ line:35 ] 登陆按钮_登陆按钮 : 等待 ('xpath', '//div[@id="u1"]//a[@name="tj_login"]') 元素可见
+ Tue, 04 Feb 2020 13:56:38  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 13:56:37.988544,结束时间为:2020-02-04 13:56:38.028391,一共等待耗时为:0:00:00.039847
+ Tue, 04 Feb 2020 13:56:38  INFO basepage.py get_element [ line:72 ] 登陆按钮_登陆按钮 : 查找 ('xpath', '//div[@id="u1"]//a[@name="tj_login"]') 元素.
+ Tue, 04 Feb 2020 13:56:38  INFO basepage.py click_element [ line:102 ] 登陆按钮_登陆按钮: 点击 ('xpath', '//div[@id="u1"]//a[@name="tj_login"]') 元素 
+ Tue, 04 Feb 2020 13:56:38  INFO basepage.py wait_ele_visible [ line:35 ] 登陆界面_点击登陆 : 等待 ('xpath', '//div[@class="tang-pass-footerBar"]//p[@title="用户名登录"]') 元素可见
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 13:56:38.124112,结束时间为:2020-02-04 13:56:40.075946,一共等待耗时为:0:00:01.951834
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py get_element [ line:72 ] 登陆界面_点击登陆 : 查找 ('xpath', '//div[@class="tang-pass-footerBar"]//p[@title="用户名登录"]') 元素.
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py click_element [ line:102 ] 登陆界面_点击登陆: 点击 ('xpath', '//div[@class="tang-pass-footerBar"]//p[@title="用户名登录"]') 元素 
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py wait_ele_visible [ line:35 ]  : 等待 ('xpath', '//input[@name="userName"]') 元素可见
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 13:56:40.195554,结束时间为:2020-02-04 13:56:40.228421,一共等待耗时为:0:00:00.032867
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py get_element [ line:72 ]  : 查找 ('xpath', '//input[@name="userName"]') 元素.
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py send_text [ line:88 ] : 对 ('xpath', '//input[@name="userName"]') 元素输入文本 1583136830
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py wait_ele_visible [ line:35 ]  : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 13:56:40.387030,结束时间为:2020-02-04 13:56:40.412177,一共等待耗时为:0:00:00.025147
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py get_element [ line:72 ]  : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py send_text [ line:88 ] : 对 ('xpath', '//input[@name="password"]') 元素输入文本 
+ Tue, 04 Feb 2020 13:56:40  INFO basepage.py wait_ele_visible [ line:35 ]  : 等待 ('xpath', '//input[@value="登录"]') 元素可见
+ Tue, 04 Feb 2020 13:56:40  ERROR basepage.py wait_ele_visible [ line:42 ] 等待元素可见失败：
+Traceback (most recent call last):
+  File "D:\Interface\Automation Framework\Common\basepage.py", line 39, in wait_ele_visible
+    WebDriverWait(self.driver,timeout,poll_fre).until(EC.visibility_of_element_located(locator))
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+
+ Tue, 04 Feb 2020 13:56:40  ERROR basepage.py save_page_screenshot [ line:214 ] 当前网页截图失败
+Traceback (most recent call last):
+  File "D:\Interface\Automation Framework\Common\basepage.py", line 39, in wait_ele_visible
+    WebDriverWait(self.driver,timeout,poll_fre).until(EC.visibility_of_element_located(locator))
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
+    raise e
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Interface\Automation Framework\Common\basepage.py", line 212, in save_page_screenshot
+    self.driver.save_screenshot(screenshot_path)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+

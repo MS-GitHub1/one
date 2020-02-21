@@ -1,0 +1,95 @@
+# 显性等待
+biaoti = (By.XPATH,'//div[@id="1"]//h3')
+WebDriverWait(driver,10,1).until(EC.visibility_of_element_located(biaoti))
+driver.find_element(*biaoti).click()
+
+# 获取所有的句柄值
+win = driver.window_handles
+# 获取当前的窗口
+a = driver.switch_to.window(win[-1])
+driver.find_element_by_id('js_keyword').send_keys("开发")
+driver.find_element_by_id('js_search').click()
+
+# 处理iframe弹框的第一种方式
+ifl=(By.NAME,'login_frame_qq')
+driver.switch_to.frame(driver.find_element(*ifl))
+# 处理iframe弹框的第二种方式,直接传递name值
+driver.switch_to.frame('login_frame_qq')
+
+# 处理alert弹框
+al = driver.switch_to.alert
+#关闭
+al.dismiss()
+#确定
+al.accept()
+
+鼠标操作需要导入该
+from selenium.webdriver.common.action_chains import ActionChains
+# 将定位到的搜索框赋给变量
+choose = driver.find_element_by_name('tj_briicon')
+# 鼠标 执行鼠标操作perform()
+ActionChains(driver).move_to_element(choose).perform()
+
+
+# 处理select弹框 引入 from selenium.webdriver.support.select import Select
+# 初始化select的对象
+time.sleep(1)
+select_ele = driver.find_element_by_xpath('//select[@name="ft"]')
+sel =Select(select_ele)
+time.sleep(1)
+#选择select下拉列表的value值
+sel.select_by_value('xls')
+
+# 键盘操作
+from selenium.webdriver.common.keys import Keys
+#Keys.ENTER  回车操作
+driver.find_element_by_id('kw').send_keys("奥迪A5")
+driver.find_element_by_id('su').send_keys(Keys.ENTER)
+
+# 执行js 进行滚动条 滚动 execute_script()
+loc = (By.XPATH,'//a[text()="(让学习变的简单) - CSDN博客"]')
+WebDriverWait(driver,10).until(EC.visibility_of_element_located(loc))
+# 操作的元素
+ele = driver.find_element(*loc)
+driver.execute_script("arguments[0].scrollIntoView();",ele)
+ele.click()
+# 直接滚动到页面的顶部
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+# 直接滚动到页面的底部
+driver.execute_script("window.scrollTo(document.body.scrollHeight,0);")
+
+# 进行js代码操作
+js1 = """
+b = document.getElementById("fromStationText")
+b.value = "北京"
+"""
+# 使用driver.execute_script()运行js语句
+driver.execute_script(js1)
+
+# 打标记需要创建“pytest.ini”
+# [pytest]
+# markers=
+#     标记名称
+#标记运行  pytest.main(["-m","标记名称"])
+
+# 默认是用例级别可以不传，如果不是需要传 @pytest.fixture(scope="function")
+# 前置条件 使用yield 在yield返回值
+@pytest.fixture
+def init_driver(init):
+    lp = LoginPage(init)
+    yield {"driver":init,"lp":lp}
+
+# 共享机制的文件名为conftest.py
+
+# pytest用例失败重新运行机制   pip  install pytest-rerunfailures （立马重新运行）
+"--reruns","2", "--reruns-delay",    # "5"失败时，重新运行2次。五秒
+pytest.main([,"-m","login","--reruns","2", "--reruns-delay", "5","--html="+file_path]])
+
+# 安装allure报告
+allure报告：
+http://insecure.repo1.maven.org/maven2/io/qameta/allure/allure-commandline/2.13.1/
+https://www.cnblogs.com/Simple-Small/p/11512337.html
+pip.exe install allure-pytest
+allure serve 文件的绝对路径  必须传在项目的绝对路径
+
+jenkins  用户名 admin_fjc

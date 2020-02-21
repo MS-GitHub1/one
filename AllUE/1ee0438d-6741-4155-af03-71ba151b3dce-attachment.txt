@@ -1,0 +1,25 @@
+INFO     root:basepage.py:35 登陆按钮_登陆按钮 : 等待 ('xpath', '//div[@id="u1"]//a[@name="tj_login"]') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 11:50:55.856720,结束时间为:2020-02-04 11:50:55.895612,一共等待耗时为:0:00:00.038892
+INFO     root:basepage.py:72 登陆按钮_登陆按钮 : 查找 ('xpath', '//div[@id="u1"]//a[@name="tj_login"]') 元素.
+INFO     root:basepage.py:102 登陆按钮_登陆按钮: 点击 ('xpath', '//div[@id="u1"]//a[@name="tj_login"]') 元素 
+INFO     root:basepage.py:35 登陆界面_点击登陆 : 等待 ('xpath', '//div[@class="tang-pass-footerBar"]//p[@title="用户名登录"]') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 11:50:55.973404,结束时间为:2020-02-04 11:50:57.574838,一共等待耗时为:0:00:01.601434
+INFO     root:basepage.py:72 登陆界面_点击登陆 : 查找 ('xpath', '//div[@class="tang-pass-footerBar"]//p[@title="用户名登录"]') 元素.
+INFO     root:basepage.py:102 登陆界面_点击登陆: 点击 ('xpath', '//div[@class="tang-pass-footerBar"]//p[@title="用户名登录"]') 元素 
+INFO     root:basepage.py:35  : 等待 ('xpath', '//input[@name="userName"]') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 11:50:57.657920,结束时间为:2020-02-04 11:50:57.688810,一共等待耗时为:0:00:00.030890
+INFO     root:basepage.py:72  : 查找 ('xpath', '//input[@name="userName"]') 元素.
+INFO     root:basepage.py:88 : 对 ('xpath', '//input[@name="userName"]') 元素输入文本 1583136830
+INFO     root:basepage.py:35  : 等待 ('xpath', '//input[@name="password"]') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 11:50:57.813483,结束时间为:2020-02-04 11:50:57.843406,一共等待耗时为:0:00:00.029923
+INFO     root:basepage.py:72  : 查找 ('xpath', '//input[@name="password"]') 元素.
+INFO     root:basepage.py:88 : 对 ('xpath', '//input[@name="password"]') 元素输入文本 
+INFO     root:basepage.py:35  : 等待 ('xpath', '//input[@value="登录"]') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 11:50:57.927173,结束时间为:2020-02-04 11:50:57.957092,一共等待耗时为:0:00:00.029919
+INFO     root:basepage.py:72  : 查找 ('xpath', '//input[@value="登录"]') 元素.
+INFO     root:basepage.py:102 : 点击 ('xpath', '//input[@value="登录"]') 元素 
+INFO     root:basepage.py:35  : 等待 ('id', 'TANGRAM__PSP_10__errorWrapper') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 11:50:58.034883,结束时间为:2020-02-04 11:50:58.059817,一共等待耗时为:0:00:00.024934
+INFO     root:basepage.py:72  : 查找 ('id', 'TANGRAM__PSP_10__errorWrapper') 元素.
+INFO     root:basepage.py:116 : 获取 ('id', 'TANGRAM__PSP_10__errorWrapper')  元素的文本内容.
+INFO     root:basepage.py:126 获取的文本值为: 请您输入密码

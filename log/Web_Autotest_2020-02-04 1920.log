@@ -1,0 +1,37 @@
+ Tue, 04 Feb 2020 19:20:44  INFO logger_handler.py <module> [ line:21 ] hehehe
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py wait_ele_visible [ line:35 ] 输入用户名 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:20:50.249282,结束时间为:2020-02-04 19:20:50.288555,一共等待耗时为:0:00:00.039273
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py get_element [ line:72 ] 输入用户名 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py send_text [ line:88 ] 输入用户名: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py wait_ele_visible [ line:35 ] 输入密码 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:20:50.439339,结束时间为:2020-02-04 19:20:50.485468,一共等待耗时为:0:00:00.046129
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py get_element [ line:72 ] 输入密码 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py send_text [ line:88 ] 输入密码: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py wait_ele_visible [ line:35 ] 登录 : 等待 ('xpath', '//button[@class="btn btn-special"]') 元素可见
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:20:50.577405,结束时间为:2020-02-04 19:20:50.605966,一共等待耗时为:0:00:00.028561
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py get_element [ line:72 ] 登录 : 查找 ('xpath', '//button[@class="btn btn-special"]') 元素.
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py click_element [ line:102 ] 登录: 点击 ('xpath', '//button[@class="btn btn-special"]') 元素 
+ Tue, 04 Feb 2020 19:20:50  INFO basepage.py wait_ele_visible [ line:35 ] 点击招投标按钮 : 等待 ('xpath', '//a[@href="/loan/loan_detail/Id/19431.html"and@class="btn btn-special"]') 元素可见
+ Tue, 04 Feb 2020 19:21:12  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:20:50.674499,结束时间为:2020-02-04 19:21:12.462217,一共等待耗时为:0:00:21.787718
+ Tue, 04 Feb 2020 19:21:12  INFO basepage.py get_element [ line:72 ] 点击招投标按钮 : 查找 ('xpath', '//a[@href="/loan/loan_detail/Id/19431.html"and@class="btn btn-special"]') 元素.
+ Tue, 04 Feb 2020 19:21:12  INFO basepage.py click_element [ line:102 ] 点击招投标按钮: 点击 ('xpath', '//a[@href="/loan/loan_detail/Id/19431.html"and@class="btn btn-special"]') 元素 
+ Tue, 04 Feb 2020 19:21:35  INFO basepage.py wait_ele_visible [ line:35 ] 输入对应的金额 : 等待 ('xpath', '//div[@class="clearfix left"]') 元素可见
+ Tue, 04 Feb 2020 19:21:35  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:21:35.911585,结束时间为:2020-02-04 19:21:35.949484,一共等待耗时为:0:00:00.037899
+ Tue, 04 Feb 2020 19:21:35  INFO basepage.py get_element [ line:72 ] 输入对应的金额 : 查找 ('xpath', '//div[@class="clearfix left"]') 元素.
+ Tue, 04 Feb 2020 19:21:35  INFO basepage.py send_text [ line:88 ] 输入对应的金额: 对 ('xpath', '//div[@class="clearfix left"]') 元素输入文本 2000
+ Tue, 04 Feb 2020 19:21:35  ERROR basepage.py send_text [ line:93 ] 输入文本失败：
+Traceback (most recent call last):
+  File "D:\Interface\Automation Framework\Common\basepage.py", line 90, in send_text
+    ele.send_keys(value)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 479, in send_keys
+    'value': keys_to_typing(value)})
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Interface\Automation Framework\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=79.0.3945.130)
+
+ Tue, 04 Feb 2020 19:21:36  INFO basepage.py save_page_screenshot [ line:216 ] 截取当前网页成功并存储在: D:\Interface\Automation Framework\picture/输入对应的金额_2020-02-04 19_21_36.png

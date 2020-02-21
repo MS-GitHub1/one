@@ -1,0 +1,17 @@
+INFO     root:basepage.py:35 输入用户名 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 20:06:39.191634,结束时间为:2020-02-04 20:06:39.236987,一共等待耗时为:0:00:00.045353
+INFO     root:basepage.py:72 输入用户名 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+INFO     root:basepage.py:88 输入用户名: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+INFO     root:basepage.py:35 输入密码 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 20:06:39.401958,结束时间为:2020-02-04 20:06:39.450826,一共等待耗时为:0:00:00.048868
+INFO     root:basepage.py:72 输入密码 : 查找 ('xpath', '//input[@name="password"]') 元素.
+INFO     root:basepage.py:88 输入密码: 对 ('xpath', '//input[@name="password"]') 元素输入文本 
+INFO     root:basepage.py:35 登录 : 等待 ('xpath', '//button[@class="btn btn-special"]') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 20:06:39.558984,结束时间为:2020-02-04 20:06:39.597615,一共等待耗时为:0:00:00.038631
+INFO     root:basepage.py:72 登录 : 查找 ('xpath', '//button[@class="btn btn-special"]') 元素.
+INFO     root:basepage.py:102 登录: 点击 ('xpath', '//button[@class="btn btn-special"]') 元素 
+INFO     root:basepage.py:35 用户名密码为空 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+INFO     root:basepage.py:49 等待结束.开始时间为2020-02-04 20:06:40.192723,结束时间为:2020-02-04 20:06:40.220568,一共等待耗时为:0:00:00.027845
+INFO     root:basepage.py:72 用户名密码为空 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+INFO     root:basepage.py:116 用户名密码为空: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+INFO     root:basepage.py:126 获取的文本值为: 请输入密码

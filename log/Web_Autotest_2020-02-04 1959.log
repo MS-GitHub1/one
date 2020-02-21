@@ -1,0 +1,44 @@
+ Tue, 04 Feb 2020 19:59:00  INFO logger_handler.py <module> [ line:21 ] hehehe
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py wait_ele_visible [ line:35 ] 输入用户名 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:59:07.529689,结束时间为:2020-02-04 19:59:07.569371,一共等待耗时为:0:00:00.039682
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py get_element [ line:72 ] 输入用户名 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py send_text [ line:88 ] 输入用户名: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py wait_ele_visible [ line:35 ] 输入密码 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:59:07.687081,结束时间为:2020-02-04 19:59:07.721986,一共等待耗时为:0:00:00.034905
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py get_element [ line:72 ] 输入密码 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py send_text [ line:88 ] 输入密码: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py wait_ele_visible [ line:35 ] 登录 : 等待 ('xpath', '//button[@class="btn btn-special"]') 元素可见
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:59:07.816282,结束时间为:2020-02-04 19:59:07.848197,一共等待耗时为:0:00:00.031915
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py get_element [ line:72 ] 登录 : 查找 ('xpath', '//button[@class="btn btn-special"]') 元素.
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py click_element [ line:102 ] 登录: 点击 ('xpath', '//button[@class="btn btn-special"]') 元素 
+ Tue, 04 Feb 2020 19:59:07  INFO basepage.py wait_ele_visible [ line:35 ] 点击招投标按钮 : 等待 ('xpath', '//a[@href="/loan/loan_detail/Id/19431.html"and@class="btn btn-special"]') 元素可见
+ Tue, 04 Feb 2020 19:59:44  INFO logger_handler.py <module> [ line:21 ] hehehe
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py wait_ele_visible [ line:35 ] 输入用户名 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:59:49.653544,结束时间为:2020-02-04 19:59:49.689928,一共等待耗时为:0:00:00.036384
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py get_element [ line:72 ] 输入用户名 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py send_text [ line:88 ] 输入用户名: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py wait_ele_visible [ line:35 ] 输入密码 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:59:49.802289,结束时间为:2020-02-04 19:59:49.838706,一共等待耗时为:0:00:00.036417
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py get_element [ line:72 ] 输入密码 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py send_text [ line:88 ] 输入密码: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py wait_ele_visible [ line:35 ] 登录 : 等待 ('xpath', '//button[@class="btn btn-special"]') 元素可见
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:59:49.933882,结束时间为:2020-02-04 19:59:49.961299,一共等待耗时为:0:00:00.027417
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py get_element [ line:72 ] 登录 : 查找 ('xpath', '//button[@class="btn btn-special"]') 元素.
+ Tue, 04 Feb 2020 19:59:49  INFO basepage.py click_element [ line:102 ] 登录: 点击 ('xpath', '//button[@class="btn btn-special"]') 元素 
+ Tue, 04 Feb 2020 19:59:50  INFO basepage.py wait_ele_visible [ line:35 ] 点击招投标按钮 : 等待 ('xpath', '//a[@href="/loan/loan_detail/Id/19431.html"and@class="btn btn-special"]') 元素可见
+ Tue, 04 Feb 2020 20:00:11  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 19:59:50.057805,结束时间为:2020-02-04 20:00:11.805979,一共等待耗时为:0:00:21.748174
+ Tue, 04 Feb 2020 20:00:11  INFO basepage.py get_element [ line:72 ] 点击招投标按钮 : 查找 ('xpath', '//a[@href="/loan/loan_detail/Id/19431.html"and@class="btn btn-special"]') 元素.
+ Tue, 04 Feb 2020 20:00:11  INFO basepage.py click_element [ line:102 ] 点击招投标按钮: 点击 ('xpath', '//a[@href="/loan/loan_detail/Id/19431.html"and@class="btn btn-special"]') 元素 
+ Tue, 04 Feb 2020 20:00:35  INFO basepage.py wait_ele_visible [ line:35 ] 输入对应的金额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素可见
+ Tue, 04 Feb 2020 20:00:35  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 20:00:35.203269,结束时间为:2020-02-04 20:00:35.237179,一共等待耗时为:0:00:00.033910
+ Tue, 04 Feb 2020 20:00:35  INFO basepage.py get_element [ line:72 ] 输入对应的金额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Tue, 04 Feb 2020 20:00:35  INFO basepage.py send_text [ line:88 ] 输入对应的金额: 对 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素输入文本 2000
+ Tue, 04 Feb 2020 20:00:35  INFO basepage.py wait_ele_visible [ line:35 ] 点击按钮 : 等待 ('xpath', '//button[@class="btn btn-special height_style"]') 元素可见
+ Tue, 04 Feb 2020 20:00:35  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 20:00:35.325942,结束时间为:2020-02-04 20:00:35.358854,一共等待耗时为:0:00:00.032912
+ Tue, 04 Feb 2020 20:00:35  INFO basepage.py get_element [ line:72 ] 点击按钮 : 查找 ('xpath', '//button[@class="btn btn-special height_style"]') 元素.
+ Tue, 04 Feb 2020 20:00:35  INFO basepage.py click_element [ line:102 ] 点击按钮: 点击 ('xpath', '//button[@class="btn btn-special height_style"]') 元素 
+ Tue, 04 Feb 2020 20:00:37  INFO basepage.py wait_ele_visible [ line:35 ] 投标成功 : 等待 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素可见
+ Tue, 04 Feb 2020 20:00:37  INFO basepage.py wait_ele_visible [ line:49 ] 等待结束.开始时间为2020-02-04 20:00:37.494664,结束时间为:2020-02-04 20:00:37.521680,一共等待耗时为:0:00:00.027016
+ Tue, 04 Feb 2020 20:00:37  INFO basepage.py get_element [ line:72 ] 投标成功 : 查找 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素.
+ Tue, 04 Feb 2020 20:00:37  INFO basepage.py get_element_text [ line:116 ] 投标成功: 获取 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')  元素的文本内容.
+ Tue, 04 Feb 2020 20:00:37  INFO basepage.py get_element_text [ line:126 ] 获取的文本值为: 查看并激活
